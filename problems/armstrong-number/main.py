@@ -1,7 +1,7 @@
 import math
 
 class Solution:
-    def check_armstrong(num):
+    def check_armstrong(self, num):
         num_of_digits = math.floor(math.log10(num)) + 1
         
         total = 0
